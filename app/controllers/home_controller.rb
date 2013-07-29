@@ -7,7 +7,7 @@ class HomeController < ApplicationController
 
   def create
   	searchterm = params[:searchterm]
-  	binding.pry
+  	# binding.pry
   	render :template => 'home/search', :content_type => 'text/javascript'
   end
 
