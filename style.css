@@ -13,9 +13,14 @@
 	margin-right: auto;
 	box-shadow: 1px 1px 1px #888;
 	font-size:20px;
+	opacity:.6;
 }
 
-#searchterm:hover{
-	border:1px solid black;
+#searchterm:hover, #searchterm:focus{
+	outline:none;
+	opacity:.9;
+	box-shadow: 1px 1px 1px #888;
 }
+
+
 
