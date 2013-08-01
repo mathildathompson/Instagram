@@ -1,3 +1,5 @@
+@import url("../din-family.css");
+
 #image_tag{
 	width:200px;
 	margin:5px;
@@ -22,5 +24,25 @@
 	box-shadow: 1px 1px 1px #888;
 }
 
+.instagram-logo{
+	width:25px;
+}
 
+body{
+	border-top: 34px solid yellow;
+}
 
+.top-nav{
+	font-family: "DIN Next", Helvetica, Arial, sans-serif;
+}
+
+.top-nav p{
+	margin-top: -25px;
+    margin-left: 10px;
+}
+
+.top-nav img{
+	float: right;
+    margin-top: -40px;
+    margin-right:10px;
+}
