@@ -1,0 +1,21 @@
+#image_tag{
+	width:200px;
+	margin:5px;
+}
+
+#searchterm{
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+	text-align: center;
+	margin: 20px;
+	margin-left: 450px;
+	margin-right: auto;
+	box-shadow: 1px 1px 1px #888;
+	font-size:20px;
+}
+
+#searchterm:hover{
+	border:1px solid black;
+}
+
